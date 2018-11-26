@@ -37,7 +37,7 @@ public class HelloWorldEndpointTest {
 
         assertThat(actual.getId())
                 .isEqualTo(expected.getId())
-                .isEqualTo(1);
+                .isEqualTo(10);
 
         assertThat(actual.getContent())
                 .isEqualTo(expected.getContent())

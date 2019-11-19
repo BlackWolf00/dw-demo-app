@@ -1,5 +1,4 @@
 package com.dduportal.jenkins.demoapp;
-dddddddddddddddddddd
 import com.dduportal.jenkins.demoapp.health.TemplateHealthCheck;
 import com.dduportal.jenkins.demoapp.resources.HelloWorldResource;
 import io.dropwizard.Application;

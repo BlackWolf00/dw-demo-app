@@ -1,16 +1,16 @@
 
-dist: trusty
+  dist: trusty
 
-group: edge
+  group: edge
 
-language: java
+  language: java
 
-sudo: required
+  sudo: required
 
-jdk: openjdk8
+  jdk: openjdk8
 
-cache:
-  directories:
-    - $HOME/.m2
-script:
-  - docker run -it --rm --name my-maven-project -v "$PWD":/usr/src/mymaven/  -w /usr/src/mymaven/ maven:3.3-jdk-8 mvn clean install
+  cache:
+    directories:
+      - $HOME/.m2
+  script:
+    - mvn clean install
